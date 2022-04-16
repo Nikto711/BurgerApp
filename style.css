@@ -1,0 +1,107 @@
+.box {
+  width: 500px;
+  height: 450px;
+  margin: auto;
+}
+.brand-top {
+  height: 20%;
+  width: 80%;
+  margin: 2% auto;
+  background: linear-gradient(#bc591e, #bc581eb0);
+  border-radius: 50% 50% 0 0;
+  box-shadow: inset -15px 0 #c15711;
+  position: relative;
+}
+.seeds1 {
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  background: white;
+  left: 30%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(-20deg);
+  box-shadow: inset -2px -3px #c9c9c9;
+}
+.seeds1::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  left: -170%;
+  top: -260%;
+  border-radius: 40%;
+  box-shadow: inset -2px -3px #c9c9c9;
+}
+.seeds2 {
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  background: white;
+  left: 65%;
+  top: 60%;
+  border-radius: 40%;
+  transform: rotate(-20deg);
+  box-shadow: inset -2px -3px #c9c9c9;
+}
+.seeds2::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  left: -170%;
+  top: -260%;
+  border-radius: 40%;
+  transform: rotate(40deg);
+  box-shadow: inset -2px -3px #c9c9c9;
+}
+.seeds2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  left: 180%;
+  top: 30%;
+  border-radius: 40%;
+  transform: rotate(-40deg);
+  box-shadow: inset -2px -3px #c9c9c9;
+}
+
+.salad {
+  width: 90%;
+  height: 7%;
+  background: linear-gradient(#228c1d, #4dbd47);
+  margin: 2% auto;
+  border-radius: 20px;
+}
+.sausage {
+  width: 80%;
+  height: 3%;
+  background: linear-gradient(#c15711, #e48e54);
+  margin: 2% auto;
+}
+.cheese {
+  width: 91%;
+  height: 4.5%;
+  background: linear-gradient(#f4d004, #cdae01);
+  margin: 2% auto;
+  border-radius: 20px;
+}
+.meat {
+  width: 82%;
+  height: 8%;
+  background: linear-gradient(#7f3608be, #5d2604cf);
+  margin: 2% auto;
+  border-radius: 15px;
+}
+.brand-bottom {
+  height: 13%;
+  width: 80%;
+  background: linear-gradient(#bc591e, #bc581eb0);
+  border-radius: 0 0 50% 50%;
+  box-shadow: inset -15px 0 #c15711;
+  margin: 2% auto;
+}
